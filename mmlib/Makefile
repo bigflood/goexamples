@@ -1,19 +1,15 @@
-CPPFLAGS= -fPIC -g
-LDFLAGS= -shared
+CPPFLAGS= -Wall -g -O0
 
 SOURCES = $(shell echo *.cpp)
 HEADERS = $(shell echo *.h)
 OBJECTS=$(SOURCES:.cpp=.o)
 
-TARGET=mmlib.so
+TARGET=mmlib.a
 
 all: $(TARGET)
 
 clean:
 	rm -f $(OBJECTS) $(TARGET)
-	rm -f ../$(TARGET)
 
 $(TARGET) : $(OBJECTS)
-	$(CC) $(CFLAGS) $(OBJECTS) -o $@ $(LDFLAGS)
-	cp $(TARGET) ..
-
+	ar rcs $@ $^

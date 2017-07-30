@@ -1,7 +1,7 @@
 package goexamples
 
 /*
-#cgo LDFLAGS: mmlib.so
+#cgo LDFLAGS: mmlib/mmlib.a
 
 #include "mmlib/mmlib.h"
 
@@ -16,5 +16,5 @@ import "fmt"
 
 func Run() {
 	v := C.GetValue(12)
-	fmt.Printf("hello! %v\n", v) //C.GetValue())
+	fmt.Printf("hello! %v\n", v)
 }
