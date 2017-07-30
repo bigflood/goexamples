@@ -1,0 +1,5 @@
+/mmlib/*.a
+/mmlib/*.o
+/mmlib/*.so
+/mmlib.so
+/clirun
