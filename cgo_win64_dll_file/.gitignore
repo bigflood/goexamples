@@ -1,0 +1,7 @@
+/mmlib/*.a
+/mmlib/*.o
+/mmlib/*.so
+/mmlib.so
+/mmlib.a
+/mmlib.dll
+/example_run.exe

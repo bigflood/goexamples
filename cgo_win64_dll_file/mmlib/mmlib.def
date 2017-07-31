@@ -1,0 +1,4 @@
+LIBRARY mmlib.dll
+
+EXPORTS
+    GetValue    @1
