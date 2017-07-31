@@ -1,4 +1,4 @@
-package goexamples
+package main
 
 /*
 // #cgo LDFLAGS: mmlib/mmlib.a
@@ -15,7 +15,7 @@ import "C"
 
 import "fmt"
 
-func Run() {
+func main() {
 	v := C.GetValue(13)
 	fmt.Printf("hello! %v\n", v)
 }
