@@ -2,5 +2,5 @@
 /mmlib/*.o
 /mmlib/*.so
 /mmlib.so
+/clirun
 /clirun.exe
-/run_example
