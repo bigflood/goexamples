@@ -1,0 +1,4 @@
+LIBRARY mmlib.dll
+
+EXPORTS
+    PrintValue    @1

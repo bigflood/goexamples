@@ -1,0 +1,13 @@
+ALL_BUILD.vcxproj*
+/Debug
+/Release
+/mmlib.dir
+/x64
+/.vs
+/CMakeFiles
+/CMakeCache.txt
+*.VC.db
+*.sln
+*.vcxproj*
+/ZERO_CHECK.*
+cmake_install.cmake
