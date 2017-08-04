@@ -1,0 +1,2 @@
+call clean.bat
+cmake . -G "Visual Studio 14 Win64"
