@@ -1,0 +1,7 @@
+/bridge/mmlib/*.a
+/bridge/mmlib/*.o
+/bridge/mmlib/*.so
+/bridge/mmlib.so
+/clirun
+/clirun.exe
+/run_example
